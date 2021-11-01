@@ -1,0 +1,11 @@
+{
+    "name": "davidsonts/digitable-line-to-bar-code",
+    "description": "DARF digitable line for barcode",
+    "autoload": {
+        "psr-4": {
+            "Davidsonts\\DigitableLineToBarCode\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
