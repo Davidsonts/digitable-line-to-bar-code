@@ -1,9 +1,16 @@
 {
     "name": "davidsonts/digitable-line-to-bar-code",
     "description": "DARF digitable line for barcode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davidson Santos",
+            "email": "davidsonts@outlook.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "Davidsonts\\DigitableLineToBarCodePackage\\": "src/"
+            "Davidsonts\\DigitableLineToBarCode\\": "src/"
         }
     },
     "minimum-stability": "dev",

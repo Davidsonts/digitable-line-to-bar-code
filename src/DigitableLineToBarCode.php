@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitableLineToBarCodePackage;
+namespace Davidsonts\DigitableLineToBarCode;
 
 class DigitableLineToBarCode
 {
