@@ -3,7 +3,7 @@
     "description": "DARF digitable line for barcode",
     "autoload": {
         "psr-4": {
-            "Davidsonts\\DigitableLineToBarCode\\": "src/"
+            "Davidsonts\\DigitableLineToBarCodePackage\\": "src/"
         }
     },
     "minimum-stability": "dev",
