@@ -7,8 +7,7 @@ class DigitableLineToBarCode
     public static function toBarCode($digitableLine)
     {
         strlen($digitableLine) == 44 or die('Digitable line must have 44 characters');
-        is_numeric($digitableLine) or die('Digitable line must be numeric');
-        
+
         $bar_code = [];
         for ($i=0; $i < 4; $i++) { 
             $number = substr($digitableLine, 0, 11);
