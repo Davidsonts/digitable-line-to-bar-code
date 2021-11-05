@@ -5,8 +5,12 @@ namespace Davidsonts\DigitableLineToBarCode;
 class DigitableLineToBarCode
 {
     public static function toBarCode($digitableLine)
-    {
-        strlen($digitableLine) == 44 or die('Digitable line must have 44 characters');
+    {   
+        $digitableLine = trim($digitableLine);
+
+        if(strlen($digitableLine) != 44) {
+            return "A linha digital deve ter 44 caracteres";
+        }
 
         $bar_code = [];
         for ($i=0; $i < 4; $i++) { 
